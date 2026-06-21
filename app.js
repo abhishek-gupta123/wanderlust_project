@@ -46,10 +46,6 @@ main()
     console.log(err);
   });
 
-
-console.log("dbUrl =", dbUrl);
-console.log("dbUrl type =", typeof dbUrl);
-
 // Session Store
 const store = MongoStore.create({
   mongoUrl: dbUrl,
